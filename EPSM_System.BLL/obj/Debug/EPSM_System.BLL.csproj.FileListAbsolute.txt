@@ -1,0 +1,12 @@
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.BLL.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.BLL.pdb
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.DAL.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.Model.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.DAL.pdb
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.DAL.dll.config
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\bin\Debug\EPSM_System.Model.pdb
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\obj\Debug\EPSM_System.BLL.csprojResolveAssemblyReference.cache
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\obj\Debug\EPSM_System.BLL.csproj.CoreCompileInputs.cache
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\obj\Debug\EPSM_System.BLL.csproj.CopyComplete
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\obj\Debug\EPSM_System.BLL.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.BLL\obj\Debug\EPSM_System.BLL.pdb

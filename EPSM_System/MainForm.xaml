@@ -1,0 +1,42 @@
+﻿<Window x:Class="EPSM_System.MainForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EPSM_System"
+        mc:Ignorable="d"
+        Title="MainForm" Height="600" Width="800" Loaded="Window_Loaded">
+    <Grid ShowGridLines="False" Margin="0,0,0.333,-0.333">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="240*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Menu  x:Name="mainMenu" HorizontalAlignment="Stretch" Height="25" VerticalAlignment="Top" Grid.RowSpan="2">
+            <MenuItem x:Name="MenuRecord" Header="档案管理(_U)" Click="MenuRecord_Click">
+            </MenuItem>
+            <MenuItem x:Name="MenuBonus" Header="奖罚管理(_B)" Click="MenuBonus_Click">
+            </MenuItem>
+            <MenuItem x:Name="MenuAttendance" Header="考勤管理(_B)" Click="MenuAttendance_Click">
+            </MenuItem>
+            <MenuItem x:Name="MenuPay" Header="工资管理(_H)" Click="MenuPay_Click">
+            </MenuItem>
+            <MenuItem x:Name="MenuReport" Header="报表管理(_H)" Click="MenuReport_Click">
+            </MenuItem>
+        </Menu>
+        <DockPanel Grid.Row="1" Loaded="DockPanel_Loaded" Margin="0,0,0,59.667" Grid.RowSpan="2" >
+            <!--<Image Source="images/Background.png" Stretch="Fill"/>-->
+            <Frame x:Name="frame1" BorderThickness="2" NavigationUIVisibility="Hidden" Margin="0,0,0,-0.333"/>
+        </DockPanel>
+        <DockPanel Grid.Row="2">
+            <StatusBar Margin="0,14.333,0,25.667" Grid.Row="2">
+                <TextBlock Text="状态："/>
+                <Separator/>
+                <TextBlock x:Name="tbLoginName" Text="用户：" Margin="0,0,20,0"/>
+                <TextBox Text="     " Width="50"/>
+                <Separator/>
+                <TextBlock Text="欢迎使用企业人事工资管理系统" Margin="10,0,0,0" HorizontalAlignment="Left"/>
+            </StatusBar>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\bin\Debug\EPSM_System.DAL.dll.config
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\bin\Debug\EPSM_System.DAL.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\bin\Debug\EPSM_System.DAL.pdb
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\bin\Debug\EPSM_System.Model.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\bin\Debug\EPSM_System.Model.pdb
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\obj\Debug\EPSM_System.DAL.csprojResolveAssemblyReference.cache
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\obj\Debug\EPSM_System.DAL.csproj.CoreCompileInputs.cache
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\obj\Debug\EPSM_System.DAL.csproj.CopyComplete
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\obj\Debug\EPSM_System.DAL.dll
+C:\Users\xyh\source\repos\EPSM_System\EPSM_System.DAL\obj\Debug\EPSM_System.DAL.pdb

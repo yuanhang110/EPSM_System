@@ -1,0 +1,47 @@
+﻿<Page x:Class="EPSM_System.pages.bonus.BonusPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="600"
+	Title="BonusPage">
+
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top" Height="30">
+            <Button Name="btnAdd" ToolTip="新增" Click="btnAdd_Click" VerticalAlignment="Bottom">
+                <Image Source="/images/add.png"></Image>
+            </Button>
+            <Button Name="btnEdit" ToolTip="编辑" Click="btnEdit_Click">
+                <Image Source="/images/edit.png"></Image>
+            </Button>
+            <Button Name="btnDelete" ToolTip="删除" Click="btnDelete_Click">
+                <Image Source="/images/delete.png"></Image>
+            </Button>
+        </ToolBar>
+        <DataGrid HorizontalAlignment="Stretch" Margin="2" VerticalAlignment="Top" x:Name="dgUsers" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="账号" Binding="{Binding ID}" IsReadOnly="True" />
+                <DataGridTextColumn Header="姓名" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="奖金" Binding="{Binding Bonus}" />
+                <DataGridTextColumn Header="罚金" Binding="{Binding Fine}" />
+                <DataGridTextColumn Header="总奖金" Binding="{Binding BonusInTotal}" >
+                    <!-- <DataGridTextColumn Header="职位" Binding="{Binding Position}"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="年龄" Binding="{Binding Age }" IsReadOnly="True"/>
+                <DataGridTextColumn Header="性别" Binding="{Binding Sex}" IsReadOnly="True">-->
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="LightBlue" />
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="LightGray"/>
+                            <Setter Property="Foreground" Value="Green"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+        </DataGrid>
+    </DockPanel>
+</Page>
